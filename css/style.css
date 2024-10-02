@@ -1,0 +1,36 @@
+
+
+
+.game{
+    width: 360px; /* تعديل عرض اللعبة */
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin: 50px auto; /* توسيط اللعبة عمودياً وزيادة المسافة من الأعلى */
+    font-weight: 500;
+}
+
+.title{
+    background: #f25;
+    padding: 15px 0; /* زيادة حجم العنوان */
+    margin: 10px 0; /* زيادة المسافة بين العنوان واللعبة */
+    font-size: 24px; /* تكبير الخط في العنوان */
+}
+
+span{
+    color: #fa0;
+}
+
+.square{
+    width: 110px; /* تكبير حجم المربعات */
+    height: 110px; /* تكبير حجم المربعات */
+    background: #f25;
+    float: left;
+    margin: 5px; /* زيادة المسافة بين المربعات */
+    font-size: 60px; /* تكبير حجم النص داخل المربعات */
+}
+
+.square:hover{
+    background: black;
+    cursor: pointer;
+}
